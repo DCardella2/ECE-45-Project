@@ -16,7 +16,7 @@ Dominick: I wrote "low_pass.m" and "high_pass.m" which run the given audio file 
 (Maybe low/high pass could be used to filter noise?)
 
 
-### Describe Synthesizer Controls
+### Synthesizer Controls
 
 Using the filters: 
 - Can use the switch to toggle the low and high pass filters
@@ -25,10 +25,10 @@ Using the filters:
 Using the oscillator: 
 - Use the switch to toggle the oscillator on or off.
 
-### How We Applied Class Concepts
+### Applied Class Concepts
 - Low/High pass: Any signal can be represented as a sum of sinusoids. These filters let only a certain frequency range through, while blocking another frequency range.
 - Oscillator: We apply a low frequency oscillation to the signal by multiplying it with cosine. For every sample in our original sound, we apply amplitude scaling based on cos(wt), where t is the time at which we arrive at a signal and w is the oscillation frequency.
 
-### Cite all Code and Modules Used
+### Code and Modules Used
 - Audio System Toolbox
 - Signal Processing Toolbox
