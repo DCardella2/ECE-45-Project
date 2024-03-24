@@ -7,7 +7,7 @@ Dominick Cardella: I wrote "low_pass.m" and "high_pass.m" which run the given au
 
 Riccardo Manca: I was in charge of most of the front end of the app, where I had to use the functions and integrate them into each component of the interface. I also made the volume slider, the frequency slider that allows the user to change the frequency of the audio signal and finally the plot of the frequency domain that plots each frequency found in the audio and changes according to the selected settings by the user.
 
-Joaquin Valle: I created the echo function. By obtaining the impulse response of the signal and convolution, the output has an echo. I also helped Ricardo with the frequency slider function. 
+Joaquin Valle: I created the echo function. By obtaining the impulse response of the signal and convolution, the output has an echo. I also helped Riccardo with the frequency slider function and its implementation on the graph. 
 
 ## Report
 
@@ -25,6 +25,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 4. Double click the file named app1.mlapp
 5. Matlab should automatically open and run the application. If this does not happen you can also open Matlab, select OpenFile in the top Toolstrip and search for app1.mlapp. You will have to perform an extra step, on the App Designer window, click on the green Run button in the Toolstrip
 6. If you see a window similar to the screenshot below, you are ready to go.
+
 {add screenshot of the app}
 
 ### Synthesizer Controls
@@ -39,7 +40,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
   * Cannot enable both filters at the same time.
 5. Using the oscillator: 
   * Use the switch to toggle the oscillator on or off.
-6. Using the echo
+6. Using the echo:
   * Use the switch to toggle the echo on or off.
 7. To plot and hear the sound, we have to switch the toggle of SOUND to be ON. We need to make sure the audio signal has finished before we switch frequency and filter setting. The user will know it is over when the toggle switches itself back to OFF.
 
@@ -47,7 +48,9 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 - Low/High pass: Any signal can be represented as a sum of sinusoids. These filters let only a certain frequency range through, while blocking another frequency range.
 - Oscillator: We apply a low frequency oscillation to the signal by multiplying it with cosine. For every sample in our original sound, we apply amplitude scaling based on cos(wt), where t is the time at which we arrive at a signal and w is the oscillation frequency.
 - The plot shows the frequency domain of an audio signal, which in class we examined in the Homework assignments. Using the plot to visualize, it allow us to show how the use of filters learned in class and the changing frequency will affect the frequency domain of audio signal.
+- Used the concepts of impulse response and convolution while designing the echo.
 
 ### Code and Modules Used
-- Audio System Toolbox
-- Signal Processing Toolbox
+Dominick Cardella: Audio System Toolbox and Signal Processing Toolbox.
+Riccardo Manca: I borrowed a function from Yair Altman called SoundVolume which is used to set the volume of the computer or system running our app. I also used some parts of our Matlab Homework 2 and 3 to create the responsive plot of frequency of an audio signal.
+Joaquin Valle:
