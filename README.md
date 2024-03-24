@@ -25,8 +25,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 4. Double click the file named app1.mlapp
 5. Matlab should automatically open and run the application. If this does not happen you can also open Matlab, select OpenFile in the top Toolstrip and search for app1.mlapp. You will have to perform an extra step, on the App Designer window, click on the green Run button in the Toolstrip
 6. If you see a window similar to the screenshot below, you are ready to go.
-
-<img width="633" alt="Screen Shot 2024-03-24 at 00 57 07" src="https://github.com/DCardella2/ECE-45-Project/assets/62259466/deb53c10-9375-4caa-8149-7e3e10b6071e">
+![app](./app.png)
 
 ### Synthesizer Controls
 1. On the app, select an audio you would like to hear where it says, “CHOOSE A SOUND”.
