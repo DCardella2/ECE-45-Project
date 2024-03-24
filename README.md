@@ -31,9 +31,9 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 1. On the app, select an audio you would like to hear where it says, “CHOOSE A SOUND”.
 2. Then you can set the volume of your computer or operating system using the Volume Slider.
 3. The app allows you to change the frequency of the sound using the slider.
-  **  When is at 0, the output will be the original signal.
-  **  When we move to the +15 side, we will hear the audio signal with a higher pitch.
-  **  When we move to the -15 side, we will hear the audio signal with a lower pitch.
+  * Sub  When is at 0, the output will be the original signal.
+  * Sub  When we move to the +15 side, we will hear the audio signal with a higher pitch.
+  * Sub  When we move to the -15 side, we will hear the audio signal with a lower pitch.
 4. Using the filters: 
   **  Can use the switch to toggle the low and high pass filters
   **  Cannot enable both filters at the same time.
