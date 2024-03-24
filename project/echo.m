@@ -10,7 +10,7 @@ impulse_response = [1; zeros(round(delay*sample_rate), 1); gain];
 % The 1 represents the original sound, followed by zeros*delay, and ends with gain to represent amplified echo
 
 % Apply convolution to create the echo effect
-echoed_signal = conv(original_signal, impulse_response);
+echoed_signal = conv(audio_signal, impulse_response);
 % Echoed signal is stored
 
 % Normalize the signal to prevent clipping, divides each sample of echoed signal by the max absolute value of signal
