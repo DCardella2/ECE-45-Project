@@ -52,5 +52,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 
 ### Code and Modules Used
 Dominick Cardella: Audio System Toolbox and Signal Processing Toolbox.
+
 Riccardo Manca: I borrowed a function from Yair Altman called SoundVolume which is used to set the volume of the computer or system running our app. I also used some parts of our Matlab Homework 2 and 3 to create the responsive plot of frequency of an audio signal.
+
 Joaquin Valle:
