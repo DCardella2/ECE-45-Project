@@ -48,7 +48,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 - Low/High pass: Any signal can be represented as a sum of sinusoids. These filters let only a certain frequency range through, while blocking another frequency range.
 - Oscillator: We apply a low frequency oscillation to the signal by multiplying it with cosine. For every sample in our original sound, we apply amplitude scaling based on cos(wt), where t is the time at which we arrive at a signal and w is the oscillation frequency.
 - The plot shows the frequency domain of an audio signal, which in class we examined in the Homework assignments. Using the plot to visualize, it allow us to show how the use of filters learned in class and the changing frequency will affect the frequency domain of audio signal.
-- Used the concepts of impulse response and convolution while designing the echo.
+- Impulse Response is convoluded with the original audio which in turn creates the echoed signal
 
 ### Code and Modules Used
 Dominick Cardella: I used Matlab Documentation, Audio System Toolbox and Signal Processing Toolbox that are available on Matlab.
