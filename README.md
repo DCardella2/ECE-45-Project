@@ -16,7 +16,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 - High pass filter could be used to make things sound like they're being said through a speaker, phone, or other audio device.
 - Oscillator can be used to simulate a repetitive noise like a police siren.
 - The plot can be use to analyze how certain settings that we choose can affect the output, in this case the audio signal.
-- Echo can be used to add an echo effect to any inputed signal.
+- Echo can be used to add an echo effect to any inputted signal.
 
 ### How to install the synthesizer
 1. Ensure Matlab is installed in your computer and that it contains the packages: Signal Processing Toolbox and Matlab Audio Toolbox.
@@ -26,7 +26,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 5. Matlab should automatically open and run the application. If this does not happen you can also open Matlab, select OpenFile in the top Toolstrip and search for app1.mlapp. You will have to perform an extra step, on the App Designer window, click on the green Run button in the Toolstrip
 6. If you see a window similar to the screenshot below, you are ready to go.
 
-{add screenshot of the app}
+
 
 ### Synthesizer Controls
 1. On the app, select an audio you would like to hear where it says, “CHOOSE A SOUND”.
@@ -49,6 +49,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 - Oscillator: We apply a low frequency oscillation to the signal by multiplying it with cosine. For every sample in our original sound, we apply amplitude scaling based on cos(wt), where t is the time at which we arrive at a signal and w is the oscillation frequency.
 - The plot shows the frequency domain of an audio signal, which in class we examined in the Homework assignments. Using the plot to visualize, it allow us to show how the use of filters learned in class and the changing frequency will affect the frequency domain of audio signal.
 - Impulse Response is convoluded with the original audio which in turn creates the echoed signal
+- The frequency domain of audio signals
 
 ### Code and Modules Used
 Dominick Cardella: I used Matlab Documentation, Audio System Toolbox and Signal Processing Toolbox that are available on Matlab.
