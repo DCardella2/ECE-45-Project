@@ -7,7 +7,7 @@ Dominick Cardella: I wrote "low_pass.m" and "high_pass.m" which run the given au
 
 Riccardo Manca: I was in charge of most of the front end of the app, where I had to use the functions and integrate them into each component of the interface. I also made the volume slider, the frequency slider that allows the user to change the frequency of the audio signal and finally the plot of the frequency domain that plots each frequency found in the audio and changes according to the selected settings by the user.
 
-Joaquin Valle: I created the echo function. By obtaining the impulse response of the signal and convolution, the output has an echo. I also helped Riccardo with the frequency slider function and its implementation on the graph. 
+Joaquin Valle: I created the echo function. By obtaining the impulse response of the signal and convoluding the original audio by the impulse response, the output signal has an echo. I also helped Riccardo with the frequency slider function and its implementation on the graph. 
 
 ## Report
 
