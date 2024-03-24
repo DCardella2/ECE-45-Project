@@ -26,7 +26,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 5. Matlab should automatically open and run the application. If this does not happen you can also open Matlab, select OpenFile in the top Toolstrip and search for app1.mlapp. You will have to perform an extra step, on the App Designer window, click on the green Run button in the Toolstrip
 6. If you see a window similar to the screenshot below, you are ready to go.
 
-
+<img width="633" alt="Screen Shot 2024-03-24 at 00 57 07" src="https://github.com/DCardella2/ECE-45-Project/assets/62259466/deb53c10-9375-4caa-8149-7e3e10b6071e">
 
 ### Synthesizer Controls
 1. On the app, select an audio you would like to hear where it says, “CHOOSE A SOUND”.
@@ -42,7 +42,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
   * Use the switch to toggle the oscillator on or off.
 6. Using the echo:
   * Use the switch to toggle the echo on or off.
-7. To plot and hear the sound, we have to switch the toggle of SOUND to be ON. We need to make sure the audio signal has finished before we switch frequency and filter setting. The user will know it is over when the toggle switches itself back to OFF.
+7. To plot and hear the sound, we have to switch the toggle of SOUND to be ON. We need to make sure the audio signal has finished before we switch the frequency, filter and echo settings. The user will know it is over when the toggle switches itself back to OFF.
 
 ### Applied Class Concepts
 - Low/High pass: Any signal can be represented as a sum of sinusoids. These filters let only a certain frequency range through, while blocking another frequency range.
