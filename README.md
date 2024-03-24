@@ -55,4 +55,4 @@ Dominick Cardella: Matlab Documentation, Audio System Toolbox and Signal Process
 
 Riccardo Manca: I borrowed a function from Yair Altman called SoundVolume which is used to set the volume of the computer or system running our app. I also used some parts of our Matlab Homework 2 and 3 to create the responsive plot of frequency of an audio signal.
 
-Joaquin Valle:
+Joaquin Valle: I used some Matlab documentation, the Audio System and Signal Processing Toolbox, and the Youtuber "Neal Holtschulte" for some insight on how to use impulse response and convution to make an echo effect. 
