@@ -31,16 +31,16 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 1. On the app, select an audio you would like to hear where it says, “CHOOSE A SOUND”.
 2. Then you can set the volume of your computer or operating system using the Volume Slider.
 3. The app allows you to change the frequency of the sound using the slider.
-  - Sub When is at 0, the output will be the original signal.
-  - Sub When we move to the +15 side, we will hear the audio signal with a higher pitch.
-  - Sub When we move to the -15 side, we will hear the audio signal with a lower pitch.
+  * - Sub When is at 0, the output will be the original signal.
+  * - Sub When we move to the +15 side, we will hear the audio signal with a higher pitch.
+  * - Sub When we move to the -15 side, we will hear the audio signal with a lower pitch.
 4. Using the filters: 
-  - Sub Can use the switch to toggle the low and high pass filters
-  - Sub Cannot enable both filters at the same time.
+  * - Sub Can use the switch to toggle the low and high pass filters
+  * - Sub Cannot enable both filters at the same time.
 5. Using the oscillator: 
-  - Sub Use the switch to toggle the oscillator on or off.
+  * - Sub Use the switch to toggle the oscillator on or off.
 6. Using the echo
-  - Sub Use the switch to toggle the echo on or off.
+  * - Sub Use the switch to toggle the echo on or off.
 7. To plot and hear the sound, we have to switch the toggle of SOUND to be ON. We need to make sure the audio signal has finished before we switch frequency and filter setting. The user will know it is over when the toggle switches itself back to OFF.
 
 ### Applied Class Concepts
