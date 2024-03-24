@@ -21,7 +21,7 @@ Joaquin Valle: I created the echo function. By obtaining the impulse response of
 ### How to install the synthesizer
 1. Ensure Matlab is installed in your computer and that it contains the packages: Signal Processing Toolbox and Matlab Audio Toolbox.
 2. Install the zip file found in Github into your computer. Source Code: https://github.com/DCardella2/ECE-45-Project
-3. Extract the folder named project from the zip file.
+3. Extract the folder named "project" from the zip file.
 4. Double click the file named app1.mlapp
 5. Matlab should automatically open and run the application. If this does not happen you can also open Matlab, select OpenFile in the top Toolstrip and search for app1.mlapp. You will have to perform an extra step, on the App Designer window, click on the green Run button in the Toolstrip
 6. If you see a window similar to the screenshot below, you are ready to go.
