@@ -3,9 +3,11 @@
 Source Code: https://github.com/DCardella2/ECE-45-Project (will probably need to make this public)
 
 ## Contributors: (Joaquin, Dominick, Riccardo)
-(also write down what we did here)
-
 Dominick Cardella: I wrote "low_pass.m" and "high_pass.m" which run the given audio file through low and high pass filters. I also wrote "oscillation.m" which applies a low-frequency oscillation to the audio. 
+
+Riccardo Manca: The plot can be use to analyze how certain settings that we choose can affect the output, in this case the audio signal.
+
+Joaquin Valle: Echo can be used to add an echo effect to any inputed signal.
 
 ## Report
 
